@@ -31,7 +31,7 @@ else if(code>=33 && code<=47 || code>=58 && code<=64){
 
  console.log(character, word,number);
  
- let para = document.getElementById("para").innerHTML= ` You Have Entered ${word} words, ${textValue.length-1} characters, ${number} numbers and ${punctuation}punctuations.`;
+ let para = document.getElementById("para").innerHTML= ` You Have Entered ${word-1} words, ${textValue.length-1} characters, ${number} numbers and ${punctuation}punctuations.`;
 }};
 
 function erase(){
