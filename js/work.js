@@ -14,7 +14,7 @@ var code = textValue.charCodeAt(i);
 console.log(code);
 
 
- if( code == 32 )
+ if( code == 32 && textValue.charCodeAt(i+1) != 32)
 {
     word++;
 }
