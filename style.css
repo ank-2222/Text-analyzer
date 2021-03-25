@@ -1,0 +1,31 @@
+#head{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    max-width: 100%;
+   
+}
+.form-floating{
+    padding: 10px 20px;
+    margin: 0px 10px;
+   
+    max-width:100%;
+    border: 1px dashed black;
+
+}
+.btn-outline-primary{
+    margin-top: 10px;
+    margin-left: -1px;
+}
+#sec{
+    margin-left: 5px;}
+
+body{
+    color: rgba(212, 0, 88, 0.884);
+}
+#floatingTextarea{
+    border: 1px solid rgb(255, 0, 128);
+}
+#para{
+    color:rgb(3, 112, 50);
+}
