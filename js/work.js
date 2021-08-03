@@ -18,6 +18,11 @@ console.log(code);
 {
     word++;
 }
+else if( code==46 && textValue.charCodeAt(i+1)==33)
+{
+    word++;
+   
+}
 else if( code>=48 && code<=57)
 {
     number++;
